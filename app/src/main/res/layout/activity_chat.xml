@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ChatActivity">
+
+
+    <fragment
+        android:id="@+id/fragmentChat"
+        android:name="adevteam.messenger.fragments.ChatFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </fragment>
+
+
+</android.support.design.widget.CoordinatorLayout>
