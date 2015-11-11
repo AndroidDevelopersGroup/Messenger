@@ -12,7 +12,7 @@
         android:name="adevteam.messenger.fragments.ContactsFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        tools:layout="@layout/fragment_contacts">
     </fragment>
 
 
